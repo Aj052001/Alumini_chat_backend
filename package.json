@@ -2,11 +2,10 @@
   "name": "scholarmatechat",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node backend/server.js",
-    "build":"npm install --legacy-peer-deps && npm install --prefix frontend && npm run build --prefix frontend"
+    "start": "node backend/server.js"
   },
   "author": "ajay",
   "license": "ISC",
